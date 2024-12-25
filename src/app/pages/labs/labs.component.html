@@ -1,0 +1,13 @@
+<h1>Primer Proyecto</h1>
+<h2>{{welcome}}</h2>
+<ul>
+  @for (task of tasks; track $index) {
+    <li>
+      {{task}}
+    </li>
+  }
+</ul>
+<hr/>
+<h2>
+  {{ name() }}
+</h2>
